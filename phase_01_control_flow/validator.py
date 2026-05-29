@@ -13,3 +13,5 @@ for char in password:
     if char.isdigit():
         has_number = True
         break
+if not has_number:
+    error.append("Password must contain at least one number.")
