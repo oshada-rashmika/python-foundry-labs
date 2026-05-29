@@ -16,3 +16,7 @@ for char in password:
         break
 if not has_number:
     error.append("Password must contain at least one number.")
+
+for char in password:
+    if char in special_characters:
+        break
