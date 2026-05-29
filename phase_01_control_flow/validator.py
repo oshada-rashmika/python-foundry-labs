@@ -20,3 +20,5 @@ if not has_number:
 for char in password:
     if char in special_characters:
         break
+if not special_characters:
+    error.append("Password must contain at least one special character.")
